@@ -1,0 +1,223 @@
+{
+  "title": "PNW native plants for landscaping by common name",
+  
+  "plants":[
+  {
+    "PlantName":"Smilacina racemosa ",
+    "CommonName":"false Solomon's seal",
+    "Height":"'",
+    "PlantType":"perennial",
+    "Image":"smilacina-racemosum.jpg"
+  },
+  {
+    "PlantName":"Asarum caudatum ",
+    "CommonName":"western wild ginger",
+    "Height":".5'",
+    "PlantType":"perennial",
+    "Image":"asarum-caudatum.jpg"
+  },
+  {
+    "PlantName":"Asplenium trichomanes ",
+    "CommonName":"maidenhair spleenwort",
+    "Height":".75'",
+    "PlantType":"fern",
+    "Image":"asplenium-trichomanes.jpg"
+  },
+  {
+    "PlantName":"Gymnocarpium disjunctum ",
+    "CommonName":"common oak fern",
+    "Height":".8'",
+    "PlantType":"fern",
+    "Image":"gymnocarpium-disjunctum.jpg"
+  },
+  {
+    "PlantName":"Mahonia repens ",
+    "CommonName":"creeping Oregon grape",
+    "Height":"1'",
+    "PlantType":"shrub",
+    "Image":"mahonia-repens.jpg"
+  },
+  {
+    "PlantName":"Campanula rotundifolia ",
+    "CommonName":"harebell",
+    "Height":"1'",
+    "PlantType":"perennial",
+    "Image":"campanula-rotundifolia.jpg"
+  },
+  {
+    "PlantName":"Disporum (now Prosartes) smithii ",
+    "CommonName":"large flowered fairy bells",
+    "Height":"1'",
+    "PlantType":"perennial",
+    "Image":"disporum-smithii.jpg"
+  },
+  {
+    "PlantName":"Dichelostemma congestum ",
+    "CommonName":"ookow",
+    "Height":"1'",
+    "PlantType":"bulb",
+    "Image":"dichelostemma-congestum.jpg"
+  },
+  {
+    "PlantName":"Iris tenax ",
+    "CommonName":"tough-leaf iris",
+    "Height":"1'",
+    "PlantType":"perennial",
+    "Image":"iris-tenax.jpg"
+  },
+  {
+    "PlantName":"Trillium ovatum ",
+    "CommonName":"coast trillium",
+    "Height":"1.5'",
+    "PlantType":"perennial",
+    "Image":"trillium-ovatum.jpg"
+  },
+  {
+    "PlantName":"Trillium chloropetalum ",
+    "CommonName":"giant trillium",
+    "Height":"1.5'",
+    "PlantType":"perennial",
+    "Image":"trillium-chloropetalum.jpg"
+  },
+  {
+    "PlantName":"Trillium albidum ",
+    "CommonName":"giant white wakerobin, sweet trillium",
+    "Height":"1.5'",
+    "PlantType":"perennial",
+    "Image":"trillium-albidum.jpg"
+  },
+  {
+    "PlantName":"Vancouveria hexandra ",
+    "CommonName":"inside-out flower",
+    "Height":"1.5'",
+    "PlantType":"perennial",
+    "Image":"vancouveria-hexandra.jpg"
+  },
+  {
+    "PlantName":"Morella californica ",
+    "CommonName":"California wax myrtle",
+    "Height":"10'",
+    "PlantType":"shrub",
+    "Image":"myrica-californica.JPG"
+  },
+  {
+    "PlantName":"Tsuga mertensiana ",
+    "CommonName":"mountain hemlock",
+    "Height":"10'",
+    "PlantType":"conifer",
+    "Image":"tsuga-mertensiana.jpg"
+  },
+  {
+    "PlantName":"Acer circinatum Pacific Fire ",
+    "CommonName":"red-bark vine maple",
+    "Height":"12'",
+    "PlantType":"tree",
+    "Image":"acer-circinatum-pacificfire.jpg"
+  },
+  {
+    "PlantName":"Thuja plicata ",
+    "CommonName":"western red cedar, giant arborvitae",
+    "Height":"12'",
+    "PlantType":"conifer",
+    "Image":"thuja-plicata-habit.jpg"
+  },
+  {
+    "PlantName":"Quercus garryana ",
+    "CommonName":"garry oak",
+    "Height":"15'",
+    "PlantType":"tree",
+    "Image":"quercus-garryana.jpg"
+  },
+  {
+    "PlantName":"Pinus contorta var. contorta ",
+    "CommonName":"shore pine",
+    "Height":"15'",
+    "PlantType":"conifer",
+    "Image":"pinus-contorta-contorta.jpg"
+  },
+  {
+    "PlantName":"Acer circinatum ",
+    "CommonName":"vine maple",
+    "Height":"15'",
+    "PlantType":"tree",
+    "Image":"acer-circinatum.jpg"
+  },
+  {
+    "PlantName":"Calocedrus decurrens ",
+    "CommonName":"incense cedar",
+    "Height":"18'",
+    "PlantType":"conifer",
+    "Image":"calocedrus-decurrens.JPG"
+  },
+  {
+    "PlantName":"Mahonia nervosa ",
+    "CommonName":"Cascade Oregon grape",
+    "Height":"2'",
+    "PlantType":"shrub",
+    "Image":"mahonia-nervosa.JPG"
+  },
+  {
+    "PlantName":"Camassia cusickii ",
+    "CommonName":"Cusick's quamash",
+    "Height":"2'",
+    "PlantType":"bulb",
+    "Image":"camassia-cusickii.jpg"
+  },
+  {
+    "PlantName":"Blechnum spicant ",
+    "CommonName":"deer fern",
+    "Height":"2'",
+    "PlantType":"fern",
+    "Image":"blechnum-spicant.jpg"
+  },
+  {
+    "PlantName":"Camassia quamash ",
+    "CommonName":"quamash, Indian hyacinth, camas",
+    "Height":"2'",
+    "PlantType":"bulb",
+    "Image":"camassia-quamash.JPG"
+  },
+  {
+    "PlantName":"Actaea rubra ",
+    "CommonName":"red baneberry",
+    "Height":"2'",
+    "PlantType":"perennial",
+    "Image":"actaea-rubra-ras.jpg"
+  },
+  {
+    "PlantName":"Adiantum aleuticum ",
+    "CommonName":"Western maidenhair fern",
+    "Height":"2.5'",
+    "PlantType":"fern",
+    "Image":"adiantum-aleuticum.jpg"
+  },
+  {
+    "PlantName":"Abies grandis ",
+    "CommonName":"grand fir",
+    "Height":"25'",
+    "PlantType":"conifer",
+    "Image":"abies-grandis.jpg"
+  },
+  {
+    "PlantName":"Polystichum munitum ",
+    "CommonName":"sword fern",
+    "Height":"3'",
+    "PlantType":"fern",
+    "Image":"polystichum-munitum.jpg"
+  },
+  {
+    "PlantName":"Vaccinium ovatum ",
+    "CommonName":"evergreen huckleberry",
+    "Height":"6'",
+    "PlantType":"shrub",
+    "Image":"vaccinium-ovatum.jpg"
+  },
+  {
+    "PlantName":"Ribes sanguineum ",
+    "CommonName":"flowering currant",
+    "Height":"8'",
+    "PlantType":"shrub",
+    "Image":"ribes-sanguineum.jpg"
+  }
+]
+}

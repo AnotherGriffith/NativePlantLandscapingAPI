@@ -1,0 +1,135 @@
+<html>
+<!--
+ /**
+
+ * index.htm is a demo file to  work with a sample API file to be called via AJAX to 
+ * deliver the contents of 2 JSON files, one that returns plants ordered by plant name, 
+ * the other by planttype
+ *
+ * The api page can be called via AJAX either via GET or POST, using a variable 
+ * named "cat":
+ *
+ * <code>
+ * api.php?cat=planttype
+ * </code>
+ *
+ * In the example above, the parameter cat is loaded with the string "planttype" 
+ * which will indicate to the API to load the JSON file containing 
+ * native plant results.
+ *
+ * For troubleshooting, swap out the plantJSON() function with toConsole() 
+ * to examine the raw data returned
+ *
+ * @package plant-web-service
+ * @author Katy Griffith
+ * @version 1.00 2015/02/28
+ * @link https://github.com/anotherGriffith/plant-web-service 
+ * @license http://www.apache.org/licenses/LICENSE-2.0
+ * @see api.php
+ * @todo none
+ */
+-->
+<head>
+<title>Plant Web Service Demo</title>
+<style>
+body {font-family:georgia;}
+#plants {
+	max-width:600px;
+	margin:5px;
+	padding:2px;
+}
+#plants > div {
+	padding:5px;
+	min-height:40px;
+	margin-bottom:5px;
+	border:1px solid green;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	position:relative; /* required to place #pic to right */
+}
+
+#plants h3 {
+	font-family:georgia;
+	padding:5px;
+	color:#fff;
+	background:#E77D2C;
+	margin:0;
+}
+
+#pic{
+	position:absolute;
+	right:10px;
+	top:10px;
+
+}
+img {
+	height: 70px;
+}
+</style>
+<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {  
+
+	$('.category').click(function(e){
+        e.preventDefault(); //stop default action of the link
+		cat = $(this).attr("href");  //get category from URL
+		loadAJAX(cat);  //load AJAX and parse JSON file
+	});
+});	
+
+
+function loadAJAX(cat)
+{
+	alert(cat);
+    	$.ajax({  
+		type: "GET",
+		dataType: "json",  
+		url: "api.php?cat=" + cat,
+		success: plantJSON,
+		error:errorAjax
+	});
+
+	$('#plants').html('');//clear data
+}
+
+function errorAjax(exception) {
+	alert('Exeption:'+exception);
+}
+
+function toConsole(data)
+{//return data to console for JSON examination
+	console.log(data); //to view,use Chrome console, ctrl + shift + j
+}
+    
+
+
+function plantJSON(data){	
+	// $('#output').text(JSON.stringify(data));  //uncomment to view raw output
+	var header = data.title;
+	$('#planttitle').html(header);
+	$.each(data.plants, function(i,item){
+	
+		var text = '<b>Name</b>: ' + item.CommonName + '<br />';
+		text += '<b>Botanical Name</b>: ' + item.PlantName + '<br />';
+		text += '<b>Height (ft)</b>: ' + item.Height + '<br />';
+		text += '<b>PlantType</b>: ' + item.PlantType + '<br />';
+		text += '<div id="pic"><img src="thumbnails/' + item.Image + '" /></div>';
+		$('<div></div>').html(text).appendTo('#plants');  
+	});
+}
+
+</script>
+</head>
+	<body>
+	<h1>Plant Web Service Demo</h1>
+		<a href="commonname" class="category">Plants by Common Name</a><br />
+		<a href="PlantType" class="category">Plants by Type</a>
+		<h3 id="planttitle"></h3>
+		<div id="plants">
+			<p></p>
+		</div>
+		<div id="output"></div>
+	</body>
+</html>
